@@ -1,0 +1,245 @@
+* {
+    font-family: "Microsoft YaHei UI";
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 48px;
+    font-weight: normal;
+    color: #f46208;
+    letter-spacing: 10px;
+    margin-bottom: 20px;
+}
+
+.portfolio > .container > p,
+.stats > .container > p,
+.contactus > .container > p {
+    font-size: 14px;
+    margin: 10px auto;
+}
+
+
+header {
+    background-color: #2e2e2e;
+    width: 100%;
+    height: 60px;
+}
+
+header > .container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+header > .container > a {
+    display: block;
+    float: left;
+    margin-top: 17px;
+}
+
+header > .container > a > img {
+    width: 100px;
+}
+
+header > .container > nav {
+    float: right;
+}
+
+header > .container > nav > a {
+    display: block;
+    float: left;
+    color: #fff;
+    font-size: 12px;
+    margin-left: 30px;
+    height: 60px;
+    line-height: 60px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+header > .container > nav > a:hover {
+    background-color: red;
+    color: black;
+}
+
+.banner > .container {
+    position: relative;
+    text-align: center;
+}
+
+.banner > .container > img{
+    width: 100%;
+    height: 450px;
+}
+
+.banner > .container > .title {
+    position: absolute;
+    font-size: 60px;
+    color: #fff;
+    top: 160px;
+    left: 310px;
+    z-index: 1;
+}
+
+.banner > .container > .intro {
+    position: absolute;
+    font-size: 16px;
+    color: #fff;
+    top: 240px;
+    left: 430px;
+    z-index: 1;
+}
+
+.portfolio > .container {
+    width: 700px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.portfolio > .container > nav {
+    margin: 30px auto;
+}
+
+.portfolio > .container > nav > a {
+    color: #f46208;
+    border: 1px solid #f46208;
+    padding: 4px 8px;
+    margin-left: 5px;
+}
+
+.portfolio > .container > nav > a:hover {
+    background-color: #f46208;
+    color: #fff;
+}
+
+.portfolio > figure > img {
+    width: 100%;
+    height: 370px;
+}
+
+.stats > .container {
+    width: 700px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.stats > .list {
+    width: 700px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.stats > .list > div {
+    position: relative;
+    display: block;
+    float: left;
+    margin: 0 32px;
+    height: 120px;
+    width: 100px;
+    padding: 5px;
+    line-height: 40px;
+}
+
+.stats > .list > div > img {
+    vertical-align: middle;
+    width: 40px;
+    height: 40px;
+}
+
+.stats > .list > div > span:last-of-type {
+    font-size: 25px;
+    color: #f46208;
+    letter-spacing: 5px;
+}
+
+
+.team {
+    clear: both;
+    height: 500px;
+    background-color: #2e2e2e;
+}
+
+.team > .container {
+    width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.team > .container > P {
+    font-size: 14px;
+    color: #fff;
+    margin: 10px auto;
+}
+
+.team > .container > div {
+    float: left;
+    width: 230px;
+    margin-top: 30px;
+}
+
+.team > .container > div > img {
+    width: 150px;
+    height: 150px;
+}
+
+.team > .container > div > span:first-of-type {
+    display: block;
+    font-size: 12px;
+    color: #fff;
+}
+
+.team > .container > div > span:last-of-type {
+    font-size: 8px;
+    color: #fff;
+}
+
+.contactus > .container {
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.contactus > .container > input {
+    width: 393px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.contactus > .container > textarea {
+    display: block;
+    width: 800px;
+    height: 200px;
+    resize:none;
+    line-height: 200px;
+    border: 1px solid #D4D3D3;
+}
+
+.contactus > .container > button {
+    width: 130px;
+    height: 40px;
+    background-color: #f46208;
+    color: #fff;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: black;
+    width: 100%;
+    height: 60px;
+}
+
+footer > .container {
+    text-align: center;
+    margin-top: 50px;
+    color: #fff;
+    font-size: 10px;
+    height: 60px;
+    line-height: 60px;
+}
+
+
